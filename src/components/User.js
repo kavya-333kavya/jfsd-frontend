@@ -3,7 +3,7 @@ export default function user (){
     function fun1(){
         
         console.log( document.getElementsByName("t1")[0].value);
-        axios.get("http://localhost:8080/user",{params:{
+        axios.get("https://jfsd-spring-hosting-production-ed8c.up.railway.app/user",{params:{
             email: document.getElementsByName("t1")[0].value
         }}).then((res)=>{
             console.log(res.data);
