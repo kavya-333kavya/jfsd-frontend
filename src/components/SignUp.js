@@ -44,7 +44,7 @@ export default function SignUp() {
       email: data.get('email'),
       password: data.get('password'),
     });
-    axios.post("http://localhost:8080/user",{name:data.get('name'),
+    axios.post("https://jfsd-spring-hosting-production-ed8c.up.railway.app/user",{name:data.get('name'),
       role:data.get('role'),
       email: data.get('email'),
       password: data.get('password')}).then((res)=>{
