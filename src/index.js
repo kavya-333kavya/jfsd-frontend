@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createStore } from 'redux';
 import RouteReducer from './components/reducers/RouteReducer';
-import { render } from '@testing-library/react';
+
 
 const store =createStore(RouteReducer);
 localStorage.setItem("name",null)
